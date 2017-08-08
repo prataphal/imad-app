@@ -14,7 +14,7 @@ app.get('/aritcle-one', function (req, res) {
 });
 
 app.get('/aritcle-two', function (req, res) {
-  res.send('aritcle one published');
+  res.send('aritcle two published');
 });
 
 app.get('/ui/style.css', function (req, res) {
